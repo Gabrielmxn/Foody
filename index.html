@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Foodfy</title>
+</head>
+<body>
+  <div id="container">
+    <header id="menu">
+      <a href="#"><img src="./assets/logo.png" alt=""></a>
+      <a href="/sobre.html" class="opcaoMenu">Sobre</a>
+      <a href="/receitas.html" class="opcaoMenu">Receita</a>
+    </header>
+    <div id="imgMenu">
+      <div class="textoMenu">
+        <h2>As melhores receitas</h2>
+        <p>Aprenda a construir os melhores pratos
+          com receitas criadas por profissionais
+          do mundo inteiro.</p>
+      </div>
+      <div>
+        <img src="./assets/chef.png" alt="">
+      </div>
+    </div>
+    <h2 class="titulo">Mais acessadas</h2>
+    <div id="cardapio">
+      <div class="opcaoCardapio">
+        <img class="imgCardapio" src="./assets/pizza.png" alt="">
+        <h3 class="tituloCardipio">Pizza 4 estações</h3>
+        <span class="chefCardapio">por Fabiana Melo</span>
+      </div>
+      <div class="opcaoCardapio">
+        <img class="imgCardapio" src="./assets/pizza.png" alt="">
+        <h3 class="tituloCardipio">Pizza 4 estações</h3>
+        <span  class="chefCardapio">por Fabiana Melo</span>
+      </div>
+      <div class="opcaoCardapio">
+        <img class="imgCardapio" src="./assets/espaguete.png" alt="">
+        <h3 class="tituloCardipio">Espaguete ao alho</h3>
+        <span  class="chefCardapio">por Júlia Kinoto</span>
+      </div class="tituloCardipio">
+      <div class="opcaoCardapio">
+        <img class="imgCardapio" src="./assets/lasanha.png" alt="">
+        <h3 class="tituloCardipio">Lasanha mac n’ cheese</h3>
+        <span  class="chefCardapio">por Juliano Vieira</span>
+      </div>
+      <div class="opcaoCardapio">
+        <img class="imgCardapio" src="./assets/doce.png" alt="">
+        <h3 class="tituloCardipio">Docinhos pão-do-céu</h3>
+        <span class="chefCardapio">por Ricardo Golvea</span>
+      </div>
+      <div class="opcaoCardapio">
+        <img class="imgCardapio" src="./assets/asinhas.png" alt="">
+        <h3 class="tituloCardipio">Asinhas de frango ao barbecue</h3>
+        <span class="chefCardapio">por Vania Steroski</span>
+      </div>
+    </div>
+  </div>
+  <div id="modal">
+    <div class="opcaoCardapioModal">
+      <img id="imagemDoPrato" alt="">
+      <h3 id="tituloDoPrato"></h3>
+      <p id="nomeDoChef"></p>
+      <button id="botao">Fechar modal</button>
+    </div>
+  </div>
+  <footer>
+    Todos direitos reservados, receitas Foodfy
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
